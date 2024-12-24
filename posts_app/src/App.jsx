@@ -42,14 +42,14 @@ function App() {
                             <div
                                 key={dataObj.id}
                                 style={{
-                                    width: "15em",
+                                    width: "20em",
                                     backgroundColor: "#CD8FFD",
-                                    padding: 10,
-                                    borderRadius: 10,
-                                    marginBlock: 10,
+                                    padding: 13,
+                                    borderRadius: 14,
+                                    marginBlock: 13,
                                 }}
                             >
-                                <p style={{fontSize: 20, color: 'white'}}>{dataObj.title}</p>
+                                <p style={{fontSize: 24, color: 'white'}}>{dataObj.title}</p>
                                 <p style={{color: 'white'}}>{dataObj.body}</p>
                             </div>
                         );
