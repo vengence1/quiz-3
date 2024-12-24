@@ -32,7 +32,7 @@ function App() {
     return (
         <div className="App">
             <button onClick={refreshPage}>refresh</button>
-            <h1 style={{color: "green"}}>fetching</h1>
+            <h1 style={{color: "blue"}}>fetching</h1>
             <center>
                 {loading ? (
                     <p>Loading...</p>
